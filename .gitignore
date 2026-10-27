@@ -1,0 +1,52 @@
+# large binary research artifacts (regenerable, see docs/REPRODUCIBILITY.md)
+*.npz
+*.npy
+*.pt
+*.pth
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+
+# MT5 / Deriv clone + local runtime state
+mt5bt/
+**/mt5bt/
+**/Tester/
+**/MQL5/Files/
+*.ex5
+
+# junctioned convenience links (phase1/out/phase2 -> C:\cluster\phase2)
+phase1/out/phase2/
+phase1/out/phase3/
+phase1/out/phase1/
+
+# secrets — never committed
+API TOKEN.md
+**/.deriv_env
+**/.env
+cookies*.json
+**/secrets*.*
+
+# the raw brief contains a live API token; the redacted copy lives in docs/
+phase3 content +prompt.md
+
+# single files above ~25 MB (kept out of git; checksums in docs/DATA_MANIFEST.md)
+phase1/final/jump10_phase1_cell_catalog.parquet
+phase1/final/jump10_phase1_inspection.xlsx
+phase1/dryrun/
+phase1/logs/
+phase2/_white_tmp/
+phase3/_live_feat.npy
+phase3/phase3_inputs.npz
+phase3/phase3_catalog_times.npy
+phase3/shards/
+phase3/fable_forward_cal.db
+
+# scratch
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+**/node_modules/
+logs/
+*.tmp
+*.bak

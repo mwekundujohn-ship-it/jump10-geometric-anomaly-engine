@@ -1,0 +1,62 @@
+﻿[
+    {
+        "file":  "phase1\\final\\jump10_phase1_fourier_functions.npz",
+        "bytes":  3570676618,
+        "mb":  3405.26,
+        "sha256":  "F8229AEE44A562787173FF98D1C676FE79C0D440C561854A1DFD699ED0579F71"
+    },
+    {
+        "file":  "phase1\\final\\jump10_phase1_cell_catalog.parquet",
+        "bytes":  54740937,
+        "mb":  52.21,
+        "sha256":  "A87F86F47C20810247EAF2F437D1DD2C794D2D798DEF1D36D79508904D2137F9"
+    },
+    {
+        "file":  "phase1\\final\\jump10_phase1_inspection.xlsx",
+        "bytes":  44883300,
+        "mb":  42.8,
+        "sha256":  "34EDEA9761CF2BDBDC255DCC762473D424AB84DC184B626CF3B9B9D82AAFE742"
+    },
+    {
+        "file":  "phase2\\jump10_phase2_subzones.npz",
+        "bytes":  2586971229,
+        "mb":  2467.13,
+        "sha256":  "29075F0184E1C33030A1F6ADD0699A704A6FE45949662675DC4603B0640BA6E3"
+    },
+    {
+        "file":  "phase2\\jump10_phase2_subzones_raw.npz",
+        "bytes":  2578717567,
+        "mb":  2459.26,
+        "sha256":  "1E8A6318BEB856F0BAD7C187A43D1944F39C73D034BA6EBCCCB66CF6DBDBF945"
+    },
+    {
+        "file":  "phase2\\czet_train_cache.npz",
+        "bytes":  690489542,
+        "mb":  658.5,
+        "sha256":  "274FB2A8C0F1F95158A1C3D654B2D5221AA3D4712BCD816497CF278588506984"
+    },
+    {
+        "file":  "phase2\\jump10_phase2_scan.npz",
+        "bytes":  645560588,
+        "mb":  615.65,
+        "sha256":  "89D845FA760422A255477DD721FC1457011AFFAECD6FBDE77F2AD0437D3F8453"
+    },
+    {
+        "file":  "phase3\\phase3_inputs.npz",
+        "bytes":  666841402,
+        "mb":  635.95,
+        "sha256":  "CB2AF7A0B67D3196BDC1C17F5ACE966068126166A5D44AB512A34CE6BB764344"
+    },
+    {
+        "file":  "phase3\\_live_feat.npy",
+        "bytes":  302679680,
+        "mb":  288.66,
+        "sha256":  "FD7AF3797ED67D863BEF2F68F9FF0F3CC79B24381879035BF8E0B0A6DCE8639A"
+    },
+    {
+        "file":  "phase3\\phase3_catalog_times.npy",
+        "bytes":  4729496,
+        "mb":  4.51,
+        "sha256":  "854EB55799FA9EEF9C5424E7E7684F5892B4378A530B1076C4C49034692BB984"
+    }
+]
