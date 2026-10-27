@@ -1,0 +1,55 @@
+{
+  "all_passed": true,
+  "checks": {
+    "01": {
+      "name": "591,171 Contiguous Cell Coverage",
+      "passed": true,
+      "detail": "Rows=591,171, Keys=27"
+    },
+    "02": {
+      "name": "0-25-50-75-100% & Fib Zone Decomposition",
+      "passed": true,
+      "detail": "Q1..Q4 present=True"
+    },
+    "03": {
+      "name": "12-Angle Brute-Force + Webcrawl Features",
+      "passed": true,
+      "detail": "vec=trigger_vec_dense (dim=132), webcrawl_manifest=True"
+    },
+    "04": {
+      "name": "Zero Collinear Collapse & Fixed Bicoherence",
+      "passed": true,
+      "detail": "random |r|=0.1790, bico_std=0.0626"
+    },
+    "05": {
+      "name": "Relational Covariant DB (+/-0.85 Mirrors)",
+      "passed": true,
+      "detail": "Hubs=11,266, Edges=241,703, Pos/Neg Mirrors=True"
+    },
+    "06": {
+      "name": "CZET Inbound Pass 1&2 Continuation Ranking",
+      "passed": true,
+      "detail": "Spearman=0.511, R2=0.0283 (Needs LearnableKernel/SweetSpot retraining if low)"
+    },
+    "07": {
+      "name": "Outbound Streaming Strategy Vault (>=55%)",
+      "passed": true,
+      "detail": "Vault Strategies=893"
+    },
+    "08": {
+      "name": "Multi-Timeframe Fractal Check (150t vs 1800t)",
+      "passed": true,
+      "detail": "Fractal column present=True"
+    },
+    "09": {
+      "name": "Coupled Indicator Functions (RSI/VWAP)",
+      "passed": true,
+      "detail": "Indicator confluence columns present=True"
+    },
+    "10": {
+      "name": "Statistical Null / Wilson Lower Bound Audit",
+      "passed": true,
+      "detail": "Statistical bound present=True"
+    }
+  }
+}

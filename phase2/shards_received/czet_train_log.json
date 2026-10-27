@@ -1,0 +1,22 @@
+{
+  "params": 1253579,
+  "zone_dim": 72,
+  "inbound": 502495,
+  "train_rows": 150000,
+  "batch_size": 512,
+  "pass1": [],
+  "pass2": [
+    {
+      "epoch": 1,
+      "loss": 0.20445,
+      "secs": 301.9,
+      "pairs": 150000
+    },
+    {
+      "epoch": 2,
+      "loss": 0.16649,
+      "secs": 310.6,
+      "pairs": 150000
+    }
+  ]
+}

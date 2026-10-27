@@ -1,0 +1,159 @@
+[*] Loading cached zones from C:/cluster/phase2\jump10_phase2_subzones.npz
+[*] Node 0/3: Scanning Covariant Rows 0 .. 236,468 (Threshold |r| >= 0.85) using dense+fft
+[*] T_mat shape=(591171, 196) R_mat shape=(591171, 196) chunk_size=256
+    -> Node 0 gemm 0-256/236,468 done in 0.41s
+    -> Node 0 progress: 256/236,468 cells | Anomalies found: 254 edges: 6,350
+    -> Node 0 gemm 1,280-1,536/236,468 done in 0.25s
+    -> Node 0 gemm 2,560-2,816/236,468 done in 0.30s
+    -> Node 0 progress: 2,816/236,468 cells | Anomalies found: 2,804 edges: 70,100
+    -> Node 0 gemm 3,840-4,096/236,468 done in 0.28s
+    -> Node 0 gemm 5,120-5,376/236,468 done in 0.27s
+    -> Node 0 progress: 5,376/236,468 cells | Anomalies found: 5,359 edges: 133,975
+    -> Node 0 gemm 6,400-6,656/236,468 done in 0.30s
+    -> Node 0 gemm 7,680-7,936/236,468 done in 0.28s
+    -> Node 0 progress: 7,936/236,468 cells | Anomalies found: 7,910 edges: 197,743
+    -> Node 0 gemm 8,960-9,216/236,468 done in 0.32s
+    -> Node 0 gemm 10,240-10,496/236,468 done in 0.28s
+    -> Node 0 progress: 10,496/236,468 cells | Anomalies found: 10,463 edges: 261,565
+    -> Node 0 gemm 11,520-11,776/236,468 done in 0.31s
+    -> Node 0 gemm 12,800-13,056/236,468 done in 0.29s
+    -> Node 0 progress: 13,056/236,468 cells | Anomalies found: 13,015 edges: 325,365
+    -> Node 0 gemm 14,080-14,336/236,468 done in 0.27s
+    -> Node 0 gemm 15,360-15,616/236,468 done in 0.26s
+    -> Node 0 progress: 15,616/236,468 cells | Anomalies found: 15,569 edges: 389,215
+    -> Node 0 gemm 16,640-16,896/236,468 done in 0.25s
+    -> Node 0 gemm 17,920-18,176/236,468 done in 0.31s
+    -> Node 0 progress: 18,176/236,468 cells | Anomalies found: 18,122 edges: 453,040
+    -> Node 0 gemm 19,200-19,456/236,468 done in 0.26s
+    -> Node 0 gemm 20,480-20,736/236,468 done in 0.29s
+    -> Node 0 progress: 20,736/236,468 cells | Anomalies found: 20,678 edges: 516,940
+    -> Node 0 gemm 21,760-22,016/236,468 done in 0.30s
+    -> Node 0 gemm 23,040-23,296/236,468 done in 0.50s
+    -> Node 0 progress: 23,296/236,468 cells | Anomalies found: 23,229 edges: 580,715
+    -> Node 0 gemm 24,320-24,576/236,468 done in 0.59s
+    -> Node 0 gemm 25,600-25,856/236,468 done in 0.47s
+    -> Node 0 progress: 25,856/236,468 cells | Anomalies found: 25,786 edges: 644,640
+    -> Node 0 gemm 26,880-27,136/236,468 done in 0.48s
+    -> Node 0 gemm 28,160-28,416/236,468 done in 0.47s
+    -> Node 0 progress: 28,416/236,468 cells | Anomalies found: 28,337 edges: 708,415
+    -> Node 0 gemm 29,440-29,696/236,468 done in 0.40s
+    -> Node 0 gemm 30,720-30,976/236,468 done in 0.55s
+    -> Node 0 progress: 30,976/236,468 cells | Anomalies found: 30,889 edges: 772,215
+    -> Node 0 gemm 32,000-32,256/236,468 done in 0.52s
+    -> Node 0 gemm 33,280-33,536/236,468 done in 0.42s
+    -> Node 0 progress: 33,536/236,468 cells | Anomalies found: 33,439 edges: 835,965
+    -> Node 0 gemm 34,560-34,816/236,468 done in 0.40s
+    -> Node 0 gemm 35,840-36,096/236,468 done in 0.37s
+    -> Node 0 progress: 36,096/236,468 cells | Anomalies found: 35,994 edges: 899,840
+    -> Node 0 gemm 37,120-37,376/236,468 done in 0.41s
+    -> Node 0 gemm 38,400-38,656/236,468 done in 0.39s
+    -> Node 0 progress: 38,656/236,468 cells | Anomalies found: 38,550 edges: 963,740
+    -> Node 0 gemm 39,680-39,936/236,468 done in 0.40s
+    -> Node 0 gemm 40,960-41,216/236,468 done in 0.51s
+    -> Node 0 progress: 41,216/236,468 cells | Anomalies found: 41,104 edges: 1,027,590
+    -> Node 0 gemm 42,240-42,496/236,468 done in 0.28s
+    -> Node 0 gemm 43,520-43,776/236,468 done in 0.34s
+    -> Node 0 progress: 43,776/236,468 cells | Anomalies found: 43,656 edges: 1,091,390
+    -> Node 0 gemm 44,800-45,056/236,468 done in 0.27s
+    -> Node 0 gemm 46,080-46,336/236,468 done in 0.27s
+    -> Node 0 progress: 46,336/236,468 cells | Anomalies found: 46,214 edges: 1,155,340
+    -> Node 0 gemm 47,360-47,616/236,468 done in 0.56s
+    -> Node 0 gemm 48,640-48,896/236,468 done in 0.65s
+    -> Node 0 progress: 48,896/236,468 cells | Anomalies found: 48,768 edges: 1,219,190
+    -> Node 0 gemm 49,920-50,176/236,468 done in 0.57s
+    -> Node 0 gemm 51,200-51,456/236,468 done in 0.55s
+    -> Node 0 progress: 51,456/236,468 cells | Anomalies found: 51,320 edges: 1,282,990
+    -> Node 0 gemm 52,480-52,736/236,468 done in 0.60s
+    -> Node 0 gemm 53,760-54,016/236,468 done in 0.63s
+    -> Node 0 progress: 54,016/236,468 cells | Anomalies found: 53,874 edges: 1,346,840
+    -> Node 0 gemm 55,040-55,296/236,468 done in 0.70s
+    -> Node 0 gemm 56,320-56,576/236,468 done in 0.57s
+    -> Node 0 progress: 56,576/236,468 cells | Anomalies found: 56,424 edges: 1,410,590
+    -> Node 0 gemm 57,600-57,856/236,468 done in 0.59s
+    -> Node 0 gemm 58,880-59,136/236,468 done in 0.57s
+    -> Node 0 progress: 59,136/236,468 cells | Anomalies found: 58,978 edges: 1,474,440
+    -> Node 0 gemm 60,160-60,416/236,468 done in 0.58s
+    -> Node 0 gemm 61,440-61,696/236,468 done in 0.59s
+    -> Node 0 progress: 61,696/236,468 cells | Anomalies found: 61,531 edges: 1,538,265
+    -> Node 0 gemm 62,720-62,976/236,468 done in 0.57s
+    -> Node 0 gemm 64,000-64,256/236,468 done in 0.65s
+    -> Node 0 progress: 64,256/236,468 cells | Anomalies found: 64,085 edges: 1,602,115
+    -> Node 0 gemm 65,280-65,536/236,468 done in 0.56s
+    -> Node 0 gemm 66,560-66,816/236,468 done in 0.58s
+    -> Node 0 progress: 66,816/236,468 cells | Anomalies found: 66,635 edges: 1,665,865
+    -> Node 0 gemm 67,840-68,096/236,468 done in 0.66s
+    -> Node 0 gemm 69,120-69,376/236,468 done in 0.57s
+    -> Node 0 progress: 69,376/236,468 cells | Anomalies found: 69,190 edges: 1,729,740
+    -> Node 0 gemm 70,400-70,656/236,468 done in 0.62s
+    -> Node 0 gemm 71,680-71,936/236,468 done in 0.56s
+    -> Node 0 progress: 71,936/236,468 cells | Anomalies found: 71,745 edges: 1,793,615
+    -> Node 0 gemm 72,960-73,216/236,468 done in 0.57s
+    -> Node 0 gemm 74,240-74,496/236,468 done in 0.63s
+    -> Node 0 progress: 74,496/236,468 cells | Anomalies found: 74,299 edges: 1,857,465
+    -> Node 0 gemm 75,520-75,776/236,468 done in 0.62s
+    -> Node 0 gemm 76,800-77,056/236,468 done in 0.64s
+    -> Node 0 progress: 77,056/236,468 cells | Anomalies found: 76,852 edges: 1,921,290
+    -> Node 0 gemm 78,080-78,336/236,468 done in 0.73s
+    -> Node 0 gemm 79,360-79,616/236,468 done in 0.61s
+    -> Node 0 progress: 79,616/236,468 cells | Anomalies found: 79,405 edges: 1,985,115
+    -> Node 0 gemm 80,640-80,896/236,468 done in 0.57s
+    -> Node 0 gemm 81,920-82,176/236,468 done in 0.76s
+    -> Node 0 progress: 82,176/236,468 cells | Anomalies found: 81,960 edges: 2,048,990
+    -> Node 0 gemm 83,200-83,456/236,468 done in 0.60s
+    -> Node 0 gemm 84,480-84,736/236,468 done in 0.64s
+    -> Node 0 progress: 84,736/236,468 cells | Anomalies found: 84,515 edges: 2,112,865
+    -> Node 0 gemm 85,760-86,016/236,468 done in 0.70s
+    -> Node 0 gemm 87,040-87,296/236,468 done in 0.69s
+    -> Node 0 progress: 87,296/236,468 cells | Anomalies found: 87,070 edges: 2,176,740
+    -> Node 0 gemm 88,320-88,576/236,468 done in 0.64s
+    -> Node 0 gemm 89,600-89,856/236,468 done in 0.64s
+    -> Node 0 progress: 89,856/236,468 cells | Anomalies found: 89,622 edges: 2,240,538
+    -> Node 0 gemm 90,880-91,136/236,468 done in 0.58s
+    -> Node 0 gemm 92,160-92,416/236,468 done in 0.57s
+    -> Node 0 progress: 92,416/236,468 cells | Anomalies found: 92,174 edges: 2,304,338
+    -> Node 0 gemm 93,440-93,696/236,468 done in 0.71s
+    -> Node 0 gemm 94,720-94,976/236,468 done in 0.64s
+    -> Node 0 progress: 94,976/236,468 cells | Anomalies found: 94,732 edges: 2,368,288
+    -> Node 0 gemm 96,000-96,256/236,468 done in 0.63s
+    -> Node 0 gemm 97,280-97,536/236,468 done in 0.55s
+    -> Node 0 progress: 97,536/236,468 cells | Anomalies found: 97,284 edges: 2,432,088
+    -> Node 0 gemm 98,560-98,816/236,468 done in 0.55s
+    -> Node 0 gemm 99,840-100,096/236,468 done in 0.59s
+    -> Node 0 progress: 100,096/236,468 cells | Anomalies found: 99,838 edges: 2,495,937
+    -> Node 0 gemm 101,120-101,376/236,468 done in 0.55s
+    -> Node 0 gemm 102,400-102,656/236,468 done in 0.61s
+    -> Node 0 progress: 102,656/236,468 cells | Anomalies found: 102,390 edges: 2,559,737
+    -> Node 0 gemm 103,680-103,936/236,468 done in 0.59s
+    -> Node 0 gemm 104,960-105,216/236,468 done in 0.56s
+    -> Node 0 progress: 105,216/236,468 cells | Anomalies found: 104,942 edges: 2,623,537
+    -> Node 0 gemm 106,240-106,496/236,468 done in 0.59s
+    -> Node 0 gemm 107,520-107,776/236,468 done in 0.58s
+    -> Node 0 progress: 107,776/236,468 cells | Anomalies found: 107,493 edges: 2,687,312
+    -> Node 0 gemm 108,800-109,056/236,468 done in 0.58s
+    -> Node 0 gemm 110,080-110,336/236,468 done in 0.56s
+    -> Node 0 progress: 110,336/236,468 cells | Anomalies found: 110,049 edges: 2,751,212
+    -> Node 0 gemm 111,360-111,616/236,468 done in 0.60s
+    -> Node 0 gemm 112,640-112,896/236,468 done in 0.60s
+    -> Node 0 progress: 112,896/236,468 cells | Anomalies found: 112,602 edges: 2,815,037
+    -> Node 0 gemm 113,920-114,176/236,468 done in 0.60s
+    -> Node 0 gemm 115,200-115,456/236,468 done in 0.64s
+    -> Node 0 progress: 115,456/236,468 cells | Anomalies found: 115,155 edges: 2,878,862
+    -> Node 0 gemm 116,480-116,736/236,468 done in 0.58s
+    -> Node 0 gemm 117,760-118,016/236,468 done in 0.57s
+    -> Node 0 progress: 118,016/236,468 cells | Anomalies found: 117,705 edges: 2,942,612
+    -> Node 0 gemm 119,040-119,296/236,468 done in 0.59s
+    -> Node 0 gemm 120,320-120,576/236,468 done in 0.62s
+    -> Node 0 progress: 120,576/236,468 cells | Anomalies found: 120,260 edges: 3,006,487
+    -> Node 0 gemm 121,600-121,856/236,468 done in 0.57s
+    -> Node 0 gemm 122,880-123,136/236,468 done in 0.57s
+    -> Node 0 progress: 123,136/236,468 cells | Anomalies found: 122,811 edges: 3,070,262
+    -> Node 0 gemm 124,160-124,416/236,468 done in 0.56s
+    -> Node 0 gemm 125,440-125,696/236,468 done in 0.56s
+    -> Node 0 progress: 125,696/236,468 cells | Anomalies found: 125,365 edges: 3,134,112
+    -> Node 0 gemm 126,720-126,976/236,468 done in 0.58s
+    -> Node 0 gemm 128,000-128,256/236,468 done in 0.58s
+    -> Node 0 progress: 128,256/236,468 cells | Anomalies found: 127,913 edges: 3,197,804
+    -> Node 0 gemm 129,280-129,536/236,468 done in 0.59s
+    -> Node 0 gemm 130,560-130,816/236,468 done in 0.63s
+    -> Node 0 progress: 130,816/236,468 cells | Anomalies found: 130,464 edges: 3,261,570
+    -> Node 0 gemm 131,840-132,096/236,468 done in 0.69s

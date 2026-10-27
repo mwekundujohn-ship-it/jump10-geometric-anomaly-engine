@@ -1,0 +1,14 @@
+{
+  "node": 1,
+  "rows_done": 295585,
+  "row_end": 295585,
+  "anomalies": 5573,
+  "source": "dense(whitened)",
+  "threshold": 0.85,
+  "max_abs_r": 0.9999745488166809,
+  "max_abs_r_cell": 185083,
+  "max_lock": 0.5239955186843872,
+  "max_lock_cell": 226490,
+  "max_abs_r_edge": 0.9994190335273743,
+  "edges": 123828
+}

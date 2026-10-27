@@ -1,0 +1,140 @@
+{
+  "generated": "2026-10-25",
+  "purpose": "Literature-sourced trajectory invariants crawled for Phase 2 item 03 and computed on the causal 0-50% window (ticks 1..75) of all 591,171 cells.",
+  "window": {
+    "start_tick": 1,
+    "end_tick": 75,
+    "length": 75,
+    "preprocessing": "per-window mean-centering and unit-variance scaling (df=74)"
+  },
+  "operators": [
+    {
+      "name": "hvg_degree_entropy",
+      "family": "complex networks",
+      "formula": "H(d) = -sum_k p_k log2 p_k over the horizontal-visibility-graph degree distribution",
+      "reference": "Luque, Lacasa, Ballesteros & Luque, Phys. Rev. E 80, 046103 (2009), doi:10.1103/PhysRevE.80.046103",
+      "note": "iid series produce P(k)=(1/3)(2/3)^(k-2) regardless of amplitude law"
+    },
+    {
+      "name": "hvg_entropy_gap",
+      "family": "complex networks",
+      "formula": "H_empirical - H_theory with H_theory = 2.754888 bits for the iid exponential law",
+      "reference": "same as hvg_degree_entropy",
+      "note": "positive gap = excess order vs white noise"
+    },
+    {
+      "name": "hvg_max_degree",
+      "family": "complex networks",
+      "formula": "max_i deg(i)",
+      "reference": "same as hvg_degree_entropy"
+    },
+    {
+      "name": "hh_inst_freq_mean",
+      "family": "Hilbert-Huang",
+      "formula": "mean of d/dt arg(Hilbert(y)) / 2*pi",
+      "reference": "Huang et al., Proc. R. Soc. A 454, 903 (1998)"
+    },
+    {
+      "name": "hh_inst_freq_std",
+      "family": "Hilbert-Huang",
+      "formula": "std of the instantaneous frequency",
+      "reference": "same as hh_inst_freq_mean"
+    },
+    {
+      "name": "levy_area_z",
+      "family": "rough paths",
+      "formula": "A = 0.5*(int t dy - int y dt), normalized by total variation",
+      "reference": "Chevyrev & Kormilitzin, arXiv:1603.03788 eq. (12); Lyons (1998) rough path theory"
+    },
+    {
+      "name": "rqa_det",
+      "family": "recurrence quantification",
+      "formula": "DET = sum(diagonal recurrence lengths >= 2) / total recurrence (16-pt delay embedding)",
+      "reference": "Marwan, Romano, Thiel & Kurths, Phys. Rep. 438, 237 (2007)"
+    },
+    {
+      "name": "rqa_lam",
+      "family": "recurrence quantification",
+      "formula": "LAM = vertical-line recurrence / total recurrence",
+      "reference": "same as rqa_det"
+    },
+    {
+      "name": "perm_entropy",
+      "family": "ordinal statistics",
+      "formula": "H = -sum p(pi) ln p(pi) / ln 6 over the 6 ordinal patterns of order 3",
+      "reference": "Bandt & Pompe, Phys. Rev. Lett. 88, 174102 (2002)"
+    }
+  ],
+  "arrays": {
+    "path": "crawled_math_operators.npz",
+    "rows": 591171,
+    "dtype": "float32",
+    "columns": [
+      "hvg_degree_entropy",
+      "hvg_entropy_gap",
+      "hvg_max_degree",
+      "hh_inst_freq_mean",
+      "hh_inst_freq_std",
+      "levy_area_z",
+      "rqa_det",
+      "rqa_lam",
+      "perm_entropy"
+    ]
+  },
+  "vault_association": {
+    "hvg_degree_entropy": {
+      "min": 1.11408,
+      "median": 3.19905,
+      "max": 4.00778,
+      "corr_vs_outbound_edge": 0.0175
+    },
+    "hvg_entropy_gap": {
+      "min": -1.64081,
+      "median": 0.44416,
+      "max": 1.2529,
+      "corr_vs_outbound_edge": 0.0175
+    },
+    "hvg_max_degree": {
+      "min": 6.0,
+      "median": 37.0,
+      "max": 73.0,
+      "corr_vs_outbound_edge": -0.0221
+    },
+    "hh_inst_freq_mean": {
+      "min": 0.00721,
+      "median": 0.01801,
+      "max": 0.0691,
+      "corr_vs_outbound_edge": -0.0404
+    },
+    "hh_inst_freq_std": {
+      "min": 0.01091,
+      "median": 0.04849,
+      "max": 0.15612,
+      "corr_vs_outbound_edge": -0.0199
+    },
+    "levy_area_z": {
+      "min": -0.18649,
+      "median": -0.00162,
+      "max": 0.31299,
+      "corr_vs_outbound_edge": 0.0705
+    },
+    "rqa_det": {
+      "min": 0.08333,
+      "median": 0.375,
+      "max": 0.70833,
+      "corr_vs_outbound_edge": 0.0581
+    },
+    "rqa_lam": {
+      "min": 0.0625,
+      "median": 0.375,
+      "max": 0.60417,
+      "corr_vs_outbound_edge": 0.0668
+    },
+    "perm_entropy": {
+      "min": 0.83067,
+      "median": 0.95208,
+      "max": 0.99532,
+      "corr_vs_outbound_edge": 0.0003
+    }
+  }
+}

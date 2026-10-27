@@ -1,0 +1,14 @@
+{
+  "permutations": 400,
+  "block_size_ticks": 150,
+  "top": 300,
+  "observed_top300_mean_win": 0.6871,
+  "null_top300_mean_median": 0.6228,
+  "null_top300_mean_p99": 0.6518,
+  "p_selection_aware": 0.0025,
+  "observed_pooled_win": 0.6087,
+  "null_pooled_median": 0.5558,
+  "p_pooled": 0.0025,
+  "beats_null_p01": true,
+  "verdict": "vault beats the block-permutation null"
+}

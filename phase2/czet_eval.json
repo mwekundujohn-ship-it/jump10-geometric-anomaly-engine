@@ -1,0 +1,33 @@
+{
+  "model": "CZETv2 + LearnableGeometricAnomalyBank + pair head + PLS path (3-seed ensemble)",
+  "universe": "sweet spot: 12-240 peers, 0.85-0.955 mean|r|",
+  "train_rows": 5704,
+  "test_rows": 1426,
+  "train_edges": 6524,
+  "test_edges": 3469,
+  "spearman": 0.5111,
+  "pair_spearman": 0.5111,
+  "spearman_observed_cov_baseline": 0.1006,
+  "r2": 0.02825,
+  "oos_r2": 0.02825,
+  "r2_net_only": -0.01326,
+  "r2_pls_only": 0.02789,
+  "stack_weights": {
+    "net": 0.0576,
+    "pls": 0.9424
+  },
+  "pair_score_vs_lock_pearson": 0.5203,
+  "precision_at_10pct": 0.0434,
+  "base_rate_lock_ge_065": 0.0173,
+  "params": 1641388,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "epochs": {
+    "pass1": 8,
+    "pass2": 30
+  },
+  "protocol": "rows split 80/20 at random; test edges are those touching a test row; PLS, stack weight and pair head are fitted on train only; R2 on held-out rows."
+}

@@ -1,0 +1,17 @@
+{
+  "node": 2,
+  "rows_scanned": 206910,
+  "row_start": 295585,
+  "row_end": 502495,
+  "anomalies": 3987,
+  "source": "dense(whitened)",
+  "threshold": 0.85,
+  "top_peers": 512,
+  "minutes": 9.58,
+  "max_abs_r": 0.9999738931655884,
+  "max_abs_r_cell": 380240,
+  "max_lock": 0.4276008605957031,
+  "max_lock_cell": 455929,
+  "max_abs_r_edge": 0.9991509914398193,
+  "edges": 88674
+}

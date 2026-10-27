@@ -1,0 +1,22 @@
+{
+  "vault_rows": 893,
+  "fractal": {
+    "median_agreement": 0.9976,
+    "p90_agreement": 1.0,
+    "is_fractal_anomalies": 90
+  },
+  "indicators": {
+    "rsi_divergence_bearish": 200,
+    "rsi_divergence_bullish": 159,
+    "vwap_stretch_median": 2.148
+  },
+  "null_test": {
+    "permutations": 200,
+    "block_size_ticks": 150,
+    "top300_observed_mean_win": 0.5503,
+    "top300_null_p99_mean": 0.7173,
+    "top300_beats_null": 3,
+    "vault_beats_null": 5,
+    "median_pval": 0.5871
+  }
+}

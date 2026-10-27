@@ -1,0 +1,22 @@
+{
+  "node": "kali",
+  "edge_rows": 241703,
+  "unique_undirected_edges": 241703,
+  "self_loops": 0,
+  "duplicate_pairs": 0,
+  "nodes_touched": 85960,
+  "max_degree": 163,
+  "median_degree_nonzero": 2.0,
+  "cov_min": 0.85,
+  "cov_median": 0.8743,
+  "cov_max": 0.9994,
+  "lock_median_abs": 0.1403,
+  "lock_ge_065": 6427,
+  "db_rows": 11266,
+  "db_hubs": 11266,
+  "hubs_appearing_in_edges": 11266,
+  "peers_mean": 1756.064,
+  "peers_median": 60.0,
+  "mean_sim_median": 0.862,
+  "cells_above_085_mean_sim": 11266
+}

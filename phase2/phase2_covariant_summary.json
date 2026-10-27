@@ -1,0 +1,157 @@
+{
+  "cells_total": 591171,
+  "anomaly_hubs": 11266,
+  "hub_rate_pct": 1.906,
+  "cells_not_anomalous": 579905,
+  "unique_undirected_edges": 241703,
+  "shards": {
+    "0": 1706,
+    "1": 5573,
+    "2": 3987
+  },
+  "covariant_similarity": {
+    "max_single_peer_abs_r": 0.9994,
+    "max_single_peer_abs_r_anchor": 150427,
+    "median_mean_abs_r": 0.862,
+    "p99_mean_abs_r": 0.9732
+  },
+  "continuation_lock": {
+    "max_mean_lock_corr": 0.524,
+    "max_mean_lock_corr_anchor": 226490,
+    "max_frac_exact_lock": 0.4615,
+    "median_mean_lock_corr": 0.0478
+  },
+  "edge_quality": {
+    "max_protected_ext_win_rate": 0.9333,
+    "median_protected_ext_win_rate": 0.5508,
+    "max_directional_win_rate": 0.9231,
+    "median_directional_win_rate": 0.5352,
+    "max_anomaly_z_score": 3.712,
+    "hubs_z_ge_3": 24,
+    "hubs_protected_win_ge_60pct": 2366,
+    "hubs_directional_win_ge_60pct": 2107
+  },
+  "peer_counts": {
+    "median": 60,
+    "p90": 7442,
+    "max": 25979,
+    "median_evaluated": 60
+  },
+  "actions": {
+    "BUY_PROTECTED_LOW": 5736,
+    "SELL_PROTECTED_HIGH": 5530
+  },
+  "mean_ext_tick": 128.9,
+  "top_10_hubs": [
+    {
+      "anchor_cell_id": 410040,
+      "covariant_peer_count": 14379,
+      "mean_0_50_similarity": 0.9541,
+      "max_0_50_similarity": 0.9743,
+      "mean_50_100_lock_corr": -0.0307,
+      "protected_ext_win_rate": 0.582,
+      "directional_50_100_win_rate": 0.5137,
+      "anomaly_z_score": 3.712,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    },
+    {
+      "anchor_cell_id": 266303,
+      "covariant_peer_count": 131,
+      "mean_0_50_similarity": 0.857,
+      "max_0_50_similarity": 0.8792,
+      "mean_50_100_lock_corr": 0.0217,
+      "protected_ext_win_rate": 0.6489,
+      "directional_50_100_win_rate": 0.5038,
+      "anomaly_z_score": 3.407,
+      "recommended_action": "BUY_PROTECTED_LOW"
+    },
+    {
+      "anchor_cell_id": 92155,
+      "covariant_peer_count": 15,
+      "mean_0_50_similarity": 0.8577,
+      "max_0_50_similarity": 0.8775,
+      "mean_50_100_lock_corr": 0.198,
+      "protected_ext_win_rate": 0.9333,
+      "directional_50_100_win_rate": 0.5333,
+      "anomaly_z_score": 3.357,
+      "recommended_action": "BUY_PROTECTED_LOW"
+    },
+    {
+      "anchor_cell_id": 397392,
+      "covariant_peer_count": 36,
+      "mean_0_50_similarity": 0.8583,
+      "max_0_50_similarity": 0.8739,
+      "mean_50_100_lock_corr": -0.036,
+      "protected_ext_win_rate": 0.7778,
+      "directional_50_100_win_rate": 0.5,
+      "anomaly_z_score": 3.333,
+      "recommended_action": "BUY_PROTECTED_LOW"
+    },
+    {
+      "anchor_cell_id": 371690,
+      "covariant_peer_count": 30,
+      "mean_0_50_similarity": 0.8739,
+      "max_0_50_similarity": 0.9414,
+      "mean_50_100_lock_corr": 0.1344,
+      "protected_ext_win_rate": 0.8,
+      "directional_50_100_win_rate": 0.5333,
+      "anomaly_z_score": 3.286,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    },
+    {
+      "anchor_cell_id": 479945,
+      "covariant_peer_count": 13207,
+      "mean_0_50_similarity": 0.9437,
+      "max_0_50_similarity": 0.9632,
+      "mean_50_100_lock_corr": 0.1494,
+      "protected_ext_win_rate": 0.5723,
+      "directional_50_100_win_rate": 0.5137,
+      "anomaly_z_score": 3.27,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    },
+    {
+      "anchor_cell_id": 48934,
+      "covariant_peer_count": 13054,
+      "mean_0_50_similarity": 0.9439,
+      "max_0_50_similarity": 0.9684,
+      "mean_50_100_lock_corr": 0.1401,
+      "protected_ext_win_rate": 0.5723,
+      "directional_50_100_win_rate": 0.5039,
+      "anomaly_z_score": 3.27,
+      "recommended_action": "BUY_PROTECTED_LOW"
+    },
+    {
+      "anchor_cell_id": 453010,
+      "covariant_peer_count": 13933,
+      "mean_0_50_similarity": 0.9501,
+      "max_0_50_similarity": 0.9723,
+      "mean_50_100_lock_corr": -0.0218,
+      "protected_ext_win_rate": 0.5723,
+      "directional_50_100_win_rate": 0.5234,
+      "anomaly_z_score": 3.27,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    },
+    {
+      "anchor_cell_id": 240935,
+      "covariant_peer_count": 3763,
+      "mean_0_50_similarity": 0.8934,
+      "max_0_50_similarity": 0.9198,
+      "mean_50_100_lock_corr": -0.0033,
+      "protected_ext_win_rate": 0.5703,
+      "directional_50_100_win_rate": 0.502,
+      "anomaly_z_score": 3.182,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    },
+    {
+      "anchor_cell_id": 403686,
+      "covariant_peer_count": 14409,
+      "mean_0_50_similarity": 0.9542,
+      "max_0_50_similarity": 0.9771,
+      "mean_50_100_lock_corr": 0.1541,
+      "protected_ext_win_rate": 0.5703,
+      "directional_50_100_win_rate": 0.5215,
+      "anomaly_z_score": 3.182,
+      "recommended_action": "SELL_PROTECTED_HIGH"
+    }
+  ]
+}

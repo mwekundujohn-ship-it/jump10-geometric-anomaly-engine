@@ -1,0 +1,47 @@
+{
+  "trigger_vec_dense": {
+    "shape": [
+      591171,
+      132
+    ],
+    "dtype": "float32"
+  },
+  "resolution_vec_dense": {
+    "shape": [
+      591171,
+      138
+    ],
+    "dtype": "float32"
+  },
+  "protected_held": {
+    "shape": [
+      591171
+    ],
+    "dtype": "int8"
+  },
+  "ext_polarity": {
+    "shape": [
+      591171
+    ],
+    "dtype": "int8"
+  },
+  "q4_net_return": {
+    "shape": [
+      591171
+    ],
+    "dtype": "float32"
+  },
+  "ext_tick": {
+    "shape": [
+      591171
+    ],
+    "dtype": "int16"
+  },
+  "phase_closure_abs_cos": {
+    "shape": [
+      591171
+    ],
+    "dtype": "float32"
+  },
+  "bytes": 645560588
+}

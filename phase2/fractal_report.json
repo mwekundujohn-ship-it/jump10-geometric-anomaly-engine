@@ -1,0 +1,18 @@
+{
+  "descriptor_agreement": {
+    "min": -0.6648,
+    "median": 0.0371,
+    "p75": 0.3056,
+    "max": 0.8784,
+    "std": 0.3338,
+    "p90_threshold": 0.5192
+  },
+  "path_shape_agreement": {
+    "median": 0.3126,
+    "p90": 0.8206
+  },
+  "is_fractal_anomalies": 90,
+  "agreement_vs_verified_edge": 0.1197,
+  "fractal_anomalies_mean_edge": 0.583,
+  "non_fractal_mean_edge": 0.5574
+}

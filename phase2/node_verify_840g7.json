@@ -1,0 +1,18 @@
+{
+  "node": "840g7",
+  "db_rows": 11266,
+  "db_unique_anchors": 11266,
+  "edge_rows": 241703,
+  "edge_unique_undirected": 241703,
+  "edge_rows_that_are_mirrored": 0,
+  "edge_self_loops": 0,
+  "edge_exact_duplicate_rows": 0,
+  "vault_rows": 893,
+  "vault_ok_rows": 300,
+  "vault_thin_rows": 593,
+  "vault_min_edge": 0.2857,
+  "vault_max_edge": 1.0,
+  "vault_rows_above_55pct": 440,
+  "beats_null_rows": 893,
+  "czet_spearman": 0.5111
+}
