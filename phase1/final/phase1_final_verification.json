@@ -1,0 +1,69 @@
+﻿{
+  "status": "ok",
+  "checks": {
+    "npz_crc_ok": true,
+    "npz_crc_bad_member": null,
+    "catalog_rows": 591171,
+    "catalog_columns": 19,
+    "cell_ids_contiguous": true,
+    "cell_labels_match": true,
+    "tick_ranges_contiguous": true,
+    "catalog_first_tick": 1,
+    "catalog_last_tick": 88675650,
+    "catalog_all_finite": true,
+    "npz_cell_id_count": 591171,
+    "npz_cell_id_ok": true,
+    "sample_rows": [
+      0,
+      1,
+      13505,
+      171620,
+      171621,
+      210000,
+      381377,
+      381378,
+      400000,
+      591169,
+      591170
+    ],
+    "sample_cell_ids": [
+      1,
+      2,
+      13506,
+      171621,
+      171622,
+      210001,
+      381378,
+      381379,
+      400001,
+      591170,
+      591171
+    ],
+    "sample_max_abs_error": 0.0,
+    "sample_max_norm_rmse": 0.0,
+    "sample_all_finite": true,
+    "radii_match": true,
+    "phases_match": true,
+    "k_indices_ok": true,
+    "harmonics_count": 150,
+    "lossless_ok": true,
+    "xlsx_Cell_Catalog": [
+      10001,
+      19
+    ],
+    "xlsx_Epicycle_Math_Functions": [
+      10001,
+      301
+    ],
+    "xlsx_Raw_150_Tick_Cells": [
+      10001,
+      151
+    ],
+    "all_ok": true
+  },
+  "outputs": {
+    "catalog_parquet_bytes": 54740937,
+    "functions_npz_bytes": 3570676618,
+    "inspection_xlsx_bytes": 44883300
+  }
+}

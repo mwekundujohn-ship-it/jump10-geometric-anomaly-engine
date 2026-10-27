@@ -1,0 +1,96 @@
+{
+  "node": "840g7",
+  "data_dir": "C:\\cluster\\phase1\\data",
+  "files": [
+    "Jump_10_Index_ticks_2022-01.csv",
+    "Jump_10_Index_ticks_2022-02.csv",
+    "Jump_10_Index_ticks_2022-03.csv",
+    "Jump_10_Index_ticks_2022-04.csv",
+    "Jump_10_Index_ticks_2022-05.csv",
+    "Jump_10_Index_ticks_2022-06.csv",
+    "Jump_10_Index_ticks_2022-07.csv",
+    "Jump_10_Index_ticks_2022-08.csv",
+    "Jump_10_Index_ticks_2022-09.csv",
+    "Jump_10_Index_ticks_2022-10.csv",
+    "Jump_10_Index_ticks_2022-11.csv",
+    "Jump_10_Index_ticks_2022-12.csv"
+  ],
+  "file_rows": [
+    2674460,
+    2415699,
+    2674680,
+    2585735,
+    2672664,
+    2588028,
+    2667008,
+    2666683,
+    2587733,
+    2672888,
+    2584676,
+    2673267
+  ],
+  "carry_file": "Jump_10_Index_ticks_2021-12.csv",
+  "carry_rows": 102,
+  "carry_file_rows": 2672470,
+  "harmonics_K": 75,
+  "output_dir": "C:\\cluster\\phase1\\out",
+  "upload": true,
+  "upload_url": "http://192.168.150.157:8080/upload/",
+  "data_url_base": "http://192.168.150.157:8080/data/Jump_10_Index/",
+  "global_start_tick": 25743151,
+  "global_start_cell": 171622,
+  "download_files": [
+    {
+      "name": "Jump_10_Index_ticks_2021-12.csv",
+      "size": 199701371
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-01.csv",
+      "size": 198839207
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-02.csv",
+      "size": 179976159
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-03.csv",
+      "size": 199797960
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-04.csv",
+      "size": 193236416
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-05.csv",
+      "size": 199504875
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-06.csv",
+      "size": 190923543
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-07.csv",
+      "size": 196676291
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-08.csv",
+      "size": 193758972
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-09.csv",
+      "size": 187829723
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-10.csv",
+      "size": 194394226
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-11.csv",
+      "size": 187956741
+    },
+    {
+      "name": "Jump_10_Index_ticks_2022-12.csv",
+      "size": 194375393
+    }
+  ]
+}

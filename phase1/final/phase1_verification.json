@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "cells": 591171,
+  "ticks": 88675650,
+  "first_cell_id": 1,
+  "last_cell_id": 591171,
+  "first_tick_idx": 1,
+  "last_tick_idx": 88675650,
+  "chunks": 34,
+  "max_tick_error": 0.0,
+  "max_norm_rmse": 2.353490127277866e-15,
+  "cells_under_1e_11": 591171,
+  "contiguity_ok": true,
+  "node_boundaries": [
+    {
+      "left_cell": 171621,
+      "left_last_tick": 25743150,
+      "right_cell": 171622,
+      "right_first_tick": 25743151,
+      "ok": true
+    },
+    {
+      "left_cell": 381378,
+      "left_last_tick": 57206700,
+      "right_cell": 381379,
+      "right_first_tick": 57206701,
+      "ok": true
+    }
+  ],
+  "outputs": {
+    "catalog_parquet": "C:\\cluster\\phase1\\final\\jump10_phase1_cell_catalog.parquet",
+    "functions_npz": "C:\\cluster\\phase1\\final\\jump10_phase1_fourier_functions.npz",
+    "inspection_xlsx": "C:\\cluster\\phase1\\final\\jump10_phase1_inspection.xlsx"
+  },
+  "elapsed_sec": 111.72
+}

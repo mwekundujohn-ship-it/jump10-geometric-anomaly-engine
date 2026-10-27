@@ -1,0 +1,57 @@
+{
+  "node": "840g7",
+  "status": "uploading",
+  "cells_done": 17830,
+  "ticks_done": 2674500,
+  "files_done": 1,
+  "files_total": 1,
+  "global_start_tick": 25743151,
+  "global_start_cell": 171622,
+  "started_utc": "2026-10-23T06:08:59Z",
+  "last_file": "Jump_10_Index_ticks_2022-01.csv",
+  "last_cell": 189451,
+  "max_tick_error": 0.0,
+  "chunks_done": 1,
+  "rowcount_mismatches": [],
+  "summary": {
+    "node": "840g7",
+    "status": "ok",
+    "harmonics_K": 75,
+    "cells": 17830,
+    "ticks": 2674500,
+    "first_cell_id": 171622,
+    "last_cell_id": 189451,
+    "first_tick_idx": 25743151,
+    "last_tick_idx": 28417650,
+    "carry_ticks_left": 62,
+    "contiguity_ok": true,
+    "lossless_ok": true,
+    "max_tick_error": 0.0,
+    "max_norm_rmse": 1.8869347902147536e-15,
+    "cells_under_1e_11": 17830,
+    "elapsed_sec": 20.75,
+    "files": [
+      "Jump_10_Index_ticks_2022-01.csv"
+    ],
+    "price_source": "mid(bid,ask)",
+    "rowcount_mismatches": [],
+    "chunks": [
+      {
+        "file": "Jump_10_Index_ticks_2022-01.csv",
+        "catalog": "chunk_840g7_01_catalog.csv",
+        "npz": "chunk_840g7_01_functions.npz",
+        "cells": 17830,
+        "ticks": 2674500,
+        "first_cell_id": 171622,
+        "last_cell_id": 189451,
+        "first_tick_idx": 25743151,
+        "last_tick_idx": 28417650,
+        "max_tick_error": 0.0,
+        "max_norm_rmse": 1.8869347902147536e-15,
+        "cells_under_1e_11": 17830,
+        "catalog_bytes": 4750955,
+        "npz_bytes": 38412326
+      }
+    ]
+  }
+}
