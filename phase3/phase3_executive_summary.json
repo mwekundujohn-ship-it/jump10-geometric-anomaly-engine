@@ -1,0 +1,52 @@
+{
+  "vault_rows_in_sweet_spot": 398,
+  "approved_ev_gt_2pct": 208,
+  "verified_profitable": 28,
+  "portfolio_trades": 4078,
+  "portfolio_strategies": 208,
+  "portfolio_win_rate_net03": 0.4519,
+  "portfolio_wilson_lb_net03": 0.4367,
+  "portfolio_profit_factor_net03": 0.958,
+  "sharpe_net03": -0.895,
+  "sortino_net03": -1.376,
+  "calmar_net03": -0.673,
+  "max_dd_net03_sigma": -310.77,
+  "cum_equity_sigma": {
+    "gross_00": -86.7,
+    "net_03": -209.04,
+    "net_06": -331.38,
+    "net_10": -494.5
+  },
+  "mc95_worst_dd_sigma": -690.64,
+  "mc99_worst_dd_sigma": -833.2,
+  "mc_prob_positive": 0.1864,
+  "mc_pf_median": 0.958,
+  "kelly_fraction": 0.0,
+  "quarter_kelly_risk_pct": 0.0,
+  "balance_fixed5_from_50": 10901.5,
+  "balance_quarter_kelly_from_50": 2816810866.0,
+  "blocked_utc_hours": [
+    0,
+    2,
+    4,
+    5,
+    7,
+    9,
+    10,
+    12,
+    14,
+    16,
+    19,
+    20,
+    21,
+    22
+  ],
+  "sigma_quantile_edges_bps": [
+    0.1526,
+    0.1755,
+    0.1772,
+    0.1787,
+    0.1805,
+    0.1912
+  ]
+}

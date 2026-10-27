@@ -1,0 +1,92 @@
+[
+  {
+    "check": "Deliverables present (8)",
+    "pass": true,
+    "detail": "missing=[]"
+  },
+  {
+    "check": "Leaderboard columns",
+    "pass": true,
+    "detail": "rows=398"
+  },
+  {
+    "check": "Leaderboard covers every sweet-spot anchor",
+    "pass": true,
+    "detail": "398 vs 398"
+  },
+  {
+    "check": "Anchor orthogonality |r|<0.82",
+    "pass": true,
+    "detail": "max_offdiag=0.8199"
+  },
+  {
+    "check": "Equity curve per-trade rows",
+    "pass": true,
+    "detail": "4078 vs 4078"
+  },
+  {
+    "check": "Sigma causal (|corr| with forward move < 0.10)",
+    "pass": true,
+    "detail": "corr=+0.0098"
+  },
+  {
+    "check": "One trade per cell",
+    "pass": true,
+    "detail": "duplicates=0"
+  },
+  {
+    "check": "Friction ladder monotone",
+    "pass": true,
+    "detail": "{'gross_00': -86.7, 'net_03': -209.04, 'net_06': -331.38, 'net_10': -494.5}"
+  },
+  {
+    "check": "MC runs & ordering",
+    "pass": true,
+    "detail": "mc95=-690.64 mc99=-833.2"
+  },
+  {
+    "check": "Kelly non-negative logic",
+    "pass": true,
+    "detail": "kelly=0 because PF<1 (correct)"
+  },
+  {
+    "check": "Whitening transform arrays",
+    "pass": true,
+    "detail": "anchors=893"
+  },
+  {
+    "check": "Live bridge trained (report parity honestly)",
+    "pass": true,
+    "detail": "match_recall=0.240 precision=0.295 IoU=0.152  <- live triggers are a SUBSET of backtest triggers"
+  },
+  {
+    "check": "7 Fable guards present",
+    "pass": true,
+    "detail": "all"
+  },
+  {
+    "check": "Forward tester compiles",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Forward tester self-check",
+    "pass": true,
+    "detail": "[+] self-check OK: matcher=mlp_cosine vec_dim=132 sqlite=True anchors=893 blocked_hours=14"
+  },
+  {
+    "check": "SQLite LiveCalibrator journal",
+    "pass": true,
+    "detail": "C:\\cluster\\phase3\\fable_forward_cal.db"
+  },
+  {
+    "check": "No credentials in Phase 3 artifacts",
+    "pass": true,
+    "detail": "leaks=[]"
+  },
+  {
+    "check": "Live config has anchors+hours+sigma edges",
+    "pass": true,
+    "detail": "anchors=208 hours=14"
+  }
+]

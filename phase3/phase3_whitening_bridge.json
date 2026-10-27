@@ -1,0 +1,10 @@
+{
+  "bridge": "mlp_128_512_512_132_cosine",
+  "match_recall": 0.2396941298223423,
+  "match_precision": 0.29487904937049086,
+  "match_iou": 0.15236459323148893,
+  "polarity_agreement": 1.0,
+  "val_cos": 0.8810423612594604,
+  "n_fit": 502495,
+  "anchors": 893
+}
